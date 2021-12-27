@@ -41,7 +41,8 @@
 - git add filename1 fiename5 filename100(Add specified files)
 - add . or git add --all(to add all files)
 - git status (shows files added or not added)
-
+- commit data with commit message
+- trying to add new data
 
 
 
