@@ -44,6 +44,39 @@
 - commit data with commit message
 - trying to add new data
 
+### HTML
+
+- Hyper Text Markup Language
+- Latest version of html is html5
+- Sematic elements
+	- describes the developer
+		- some of them are :
+			- header
+			- article
+			- section 
+			- asider 
+			- fooder 
+			- table
+- Block level elements
+	- occupy entire width of browser
+	- some of them are
+		- h1 to h6 (headings)
+		- paragraphs
+		- div
+		- all sematic elements
+		- text will start from new line
+- Inline elements
+	- span
+	- img
+	- a
+	- nav
+	- form 
+	- input
+	- textarea
+	- legend
+	- sup
+	- sub
+
 
 
 
