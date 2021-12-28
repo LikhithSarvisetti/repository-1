@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::Positions::</title>
+    <style>
+        .main{
+            background-color: chartreuse;
+            font-size: 30px;
+            border: 2px solid red;
+            height: 300vh;
+            position: relative;
+            text-align: center;
+            padding: 30px 0px;
+            width: 100%;
+            
+        }
+        .child{
+            background-color: rgb(32, 224, 26);
+            border: 2px solid red;
+            position: fixed ;
+            position: sticky;
+            margin-top: 40px;
+            top :20px;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        Welcome
+        <div class="child">
+            <h3>Position1</h3>
+        </div>
+        <p>
+            view songs with 'A'
+        </p>
+        <div class="child">
+            <h3>Position2</h3>
+        </div>
+        <p>
+           view songs with 'B'
+        </p>
+        <div class="child">
+            <h3>Position3</h3>
+        </div>
+    </div>
+</body>
+</html>

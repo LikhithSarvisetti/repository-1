@@ -130,6 +130,33 @@ selector {
   + border
   + padding
 
+### Tasks
+
+- index.html
+- login.html
+- registration.html
+
+### Flex Box
+
++ display
++ position
+	- static
+	- relative
+	- absolute
+	- fixed 
+	- sticky
++ align-content
++ align-items
+### responsive web design
+### Flex-Box
+- display 
+	- flex
+		- flex wrap
+		- justify - content
+		- flex-direction
+		- flex-flow
+
+
 
 
 
