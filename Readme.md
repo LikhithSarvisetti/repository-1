@@ -81,7 +81,65 @@
 
 - flaticon.com
 
-### for image 
+### TASK
+
+- audio 
+- video
+- canvas
+- progress
+- meter
+- data list 
+- select
+
+
+
+### CSS
+
++ Cascading Style Sheets
++ Types of CSS
+	- Inline CSS
+	- Internal CSS
+	- External CSS
+
++ syntax for CSS  //for intetrnal and external CSS
+
+...
+selector {
+	css properties
+}
+...
+
+### selectors
++ Simple selectors
+	- By element name
+	- Grouping selector (,)
+	- Class selector(.)
+	- Id selector(#)
++ Combibnators
+	+ Descendant selector ( )
+	+ Child selector (>)
+	+ Adjacent sibling selector (+)
+	+ General sibling selector(~)
++ Pseudo class selector
++ Pseudo element selector
++ Attribute selector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
