@@ -111,6 +111,7 @@ selector {
 
 ### selectors
 + Simple selectors
+	- universal selectors(*)
 	- By element name
 	- Grouping selector (,)
 	- Class selector(.)
@@ -124,6 +125,10 @@ selector {
 + Pseudo element selector
 + Attribute selector
 
+### Box Model
+  + margin
+  + border
+  + padding
 
 
 
