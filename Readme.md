@@ -212,7 +212,12 @@ selector {
 	- text (text-white)
 	- background (bg-secondary)
 	- alerts (alert alert-primary)
-
+ + grid system
+	- 	col-sm-12
+	- sm (small devices)
+	- md (medium devices)
+	- lg(large devices)
+	- xl (extra large devices)
 
 
 
