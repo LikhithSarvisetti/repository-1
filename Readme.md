@@ -156,10 +156,82 @@ selector {
 		- flex-direction
 		- flex-flow
 
+### Media Queries
+- we write css code to display same content in different smiles
+- Extra small devices (Mobiles)
+	- max-width: 600px
+- Small devices (Large phones)
+	- min-width: 600px
+- Medium (Small Laptops)
+	- min-width: 768px
+- Large (Large laptops or desktops)
+	- min-width: 992px
+- Extra large devices
+	- min-width: 1200px
+ ...
+ - syntax :
+	@media only screen(max-width:320px) and
+	(max-width:500px{
+		CSS code
+	}
+...
+### Bootstrap4.6
+- It is a CSS Framework
+-  type of modes
+  - offline
+  - online
+	- CDN links
++ background color - bg
++ text-white(for color of text)
++ margin in bootstrap (m-*(0.5))
+	- 0 --> 0rem
+	- 1 --> 0.25rem (4px)
+	- 2 --> 0.50rem (8px)
+	- 3 --> 1.00rem (16px)
+	- 4 --> 1.50rem (24px)
+	- 5 --> 3.00rem (48px)
+	- ml-8 (margin-left)
+	- m ( margin in all directions)
+	- mt (margin-top)
+	- mr (margin-right)
+	- mb ( margin-bottom)
++ Padding (padding-left --> p1-5)
+
++ colors 
+	- primary
+	- secondary
+	- info
+	- success
+	- warning
+	- danger
+	- light
+	- dark
+	- white
++ We can use color classes for 
+	- Buttons (btn btn-primary)
+	- text (text-white)
+	- background (bg-secondary)
+	- alerts (alert alert-primary)
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+ 
 
 
 
