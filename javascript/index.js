@@ -39,8 +39,11 @@
 // let name3= employees[2]
 // console.log(name1)
 // console.log(name2)
-let employees=["sunny","moon","star","fvyujgcf","gfuyf"]
-let [ram,moon,star,...data]=employees
+// let employees=["sunny","moon","star","fvyujgcf","gfuyf"]
+// let [ram,moon,star,...data]=employees
 
-console.log(ram)
-console.log(data)
+// console.log(ram)
+// console.log(data)
+let employee ={
+    
+}

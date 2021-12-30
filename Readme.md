@@ -310,6 +310,23 @@ selector {
    ...variablename   
 ...
 
+- to change array elements from one array to another[swamp]
+
+### Rest Parameter
+
++ to handle function parameters
+
+- syntax :
+...
+   ...parameter
+...
+
+# De-structuring of array
+
+- let employees=["sun","moon","star"]
+ let [sun,moon,start,...data]=employees
+
+
 
 
 
