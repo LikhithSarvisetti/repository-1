@@ -44,6 +44,61 @@
 
 // console.log(ram)
 // console.log(data)
-let employee ={
+// let demo= function(x,y){
+//     return x+y
+// }
+// console.log(demo(3,4))
     
-}
+// let demo=(x,y) => {
+// 	return x*y
+// } 
+// console.log(demo(3,4))
+// setTimeout(function(){
+//     console.log("welcome")
+// },3000)
+
+// let employees=["ram","ravi","rashi"]
+// for (let i=0; i<employees.length;i++)
+// {
+//     console.log(employees[i])
+// }
+// let employees=["ram","ravi","rashi"]
+// for(let i in employees){
+//     console.log(i)
+// }
+//  let employees=["ram","ravi","rashi"]
+// for(let i of employees)
+// {
+//     console.log(i)
+// // }
+// let employees=["ram","ravi","rashi"]
+// let result=employees.map(function(element,index){
+//     return element+"k"+index
+// })
+// console.log(employees)
+// console.log(result)
+
+// let employees=["ram","ravi","rashi"]
+// let result=employees.forEach(element {
+    
+
+//     console.log(employees)
+// })
+// let employees=["ram","ravi","rashi"]
+// employees.forEach(function(element){
+//     console.log(element+"OK")
+// }
+// )
+
+// let employees=["ram","ravi","rashi"]
+// let result= employees.map((element,index) =>{
+//     return element+"K"+index
+// })
+// console.log(result)
+
+
+
+
+
+
+

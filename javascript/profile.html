@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="./index.js"></script> -->
+</head>
+<body>
+     <div class="main">
+            <div class="child">
+
+            </div>
+    </div> 
+    <!-- // var main=document.querySelector(".main");
+    // var heading=document.querySelector(".child")
+
+     //  var main= document.getElementsByClassName("")
+    //    var heading = document.createElement('h1');
+    //    heading.textContent="Welcome";
+    //   child.appendChild(heading);
+    //     main.appendChild(child); -->
+
+   <script>
+fetch('./data.json').then(response => response.json())
+.then(info => 
+//console.log(data))
+   profile(info))
+    var main=document.querySelector(".main");
+    function profile(details){
+        var title1=document.createElement('h1');
+        title1.textContent=details.title1;
+        main.appendChild(title1)
+    }
+   </script>
+</body>
+</html>

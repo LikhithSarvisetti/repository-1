@@ -326,10 +326,132 @@ selector {
 - let employees=["sun","moon","star"]
  let [sun,moon,start,...data]=employees
 
+### Functions
+
+- function with function name
+
+syntax :
+...
+   function demo(x,y)
+   {
+	   return x+y
+   }
+   demo()
+...
+
+- anonymous ( functions without function name)
+
+syntax :
+...
+ let demo= function(x,y)
+{
+    return x+y
+}
+console.log(demo(3,4))
+    
+...
+
+- Arrow function
+...
+let demo=(x,y) => {
+	return x*y
+} 
+console.log(demo(x,y))
+
+- time laps in functions
+
+setTimeout(function(){
+    console.log("welcome")
+},3000)
+
+- for loop
+
+let employees=["ram","ravi","rashi"]
+for (let i=0; i<employees.length;i++)
+{
+    console.log(employees[i])
+}
+
+- for loop using "in".......for-in
+let employees=["ram","ravi","rashi"]
+for(let i in employees){
+    console.log(i)
+}
+
+- for loop using "of".......for-of
+let employees=["ram","ravi","rashi"]
+for(let i of employees)
+{
+    console.log(i)
+}
+
++ forEach() --> (ES-5)
++ map() --> (ES-6)
+
+- example for map
+let employees=["ram","ravi","rashi"]
+let result=employees.map(function(element,index){
+    return element+"k"+index
+})
+console.log(employees)
+console.log(result)
+
+- example for forEach
+et employees=["ram","ravi","rashi"]
+employees.forEach(function(element){
+    console.log(element+"OK")
+})
+
+- example for map using arrow
 
 
+let employees=["ram","ravi","rashi"]
+let result= employees.map((element,index) =>{
+    return element+"K"+index
+})
+console.log(result)
+
+### DOM
+
+- Document Object Model
+- document
+- history 
+- window 
+- navigator
+	+ DOM methods
+		- getElementsbyId()
+		- getElementsByClassname
 
 
+### imp****
+
+- `querySelector`
+- `inner text`
+- `textContent`
+- `append`
+- `appendChild`
+- `innerHTML`
+- `setAttribute()`
+- `classList `
+- `style`
+- `src`
+
+### JSON
+
++ JavaScript Object Notation
+	- to exchange information between application and server
+
+Syntax :
+...
+{
+	"name": "Kalyan",
+	"salary": "36 LPA",
+	"designation": "MERN DEVELOPER",
+	"mobile" :9807654321
+}
+...
+
++ Ajax call or Promises (fetch API) or axios
 
 
 
