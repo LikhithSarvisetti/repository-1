@@ -218,7 +218,97 @@ selector {
 	- md (medium devices)
 	- lg(large devices)
 	- xl (extra large devices)
+	- modal
+	- table
 
+### Java Script
+
+- text based programming language
+- provided OOPS concepts
+- we can run in client-side and server side for dynamic web applications
+- to apply dynamic behaviour of the website we use javascript
+- introduced in 1995
+- java script is loosely couple and dynamic language
+	- no need to mention data type hence called loosely coupled
++ by 'BRENDEN EICH' NAMED THEN AS (ES262)
+- ECMA (European Country Manufacture Association) (ES-4)
+- we will use ES-6
+	- let & const
+	- keyword to create variable   "var"
+	- map()
+	- arrow function
+	- classes
+	- spread operator
+	- rest operator
++ variables and data types
++ Data types
+	- number (digits)
+	- BigInt ( number greater than 2^53-1)
+	- string 
+	- Boolean
+	- undefine
+	- null
+	- Object  ****
+	- Arrays  ****
++ variables
+	- var, let & const
+	- scope
+		 - function level --> var
+		 - block level --> let & const 
+	- Redefine  - let and var but not const
+	- Redeclare - only using var
+
+** Hoisting :
+    first print statement
+	and then declaration statement
+	undefined error will be output
+
++ objects 
+	- object is a pair of key and value
+	- erntity that has state and behaviour
+
+	- syntyax :
+	...
+		name : "Kalyan";
+	...
+
+
++ arrays
+	let employees = ["ram","chsch","saufcgiugf"]
+
+
+### Alerts
+
++ to generate notifications
+	- alert
+	- prompt (to take input from the user)
+	- confirm
+
+### Alerts 
+	- alert("Regestration is completed successfully")
+
+### Prompt(to take input)
+	- let number1= prompt("enter a number********")
+
+### Confirm
+	- confirm("syafgwieg")
+
+
+
+### console statements
+
+- console.log()
+- console.info()
+- console.warn()
+- console.error()
+
+
+### Spread Operator
+
+- Syntax :
+...
+   ...variablename   
+...
 
 
 
