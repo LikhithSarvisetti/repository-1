@@ -5,11 +5,18 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Functional from './components/Functional';
 import App from './App';
+import UnionBank from './components/UnionBank';
+import StateinClassComponent from './components/StateinClassComponent';
+import StateInFunctionalComponent from './components/StateInFunctionalComponent';
 
 ReactDOM.render(
   <React.StrictMode>
-   <App />
+   {/* <App />
   <Functional /> 
+  <UnionBank /> */}
+  <StateinClassComponent />
+  {/* <StateInFunctionalComponent /> */}
+  
   </React.StrictMode>,
   document.getElementById('root')
 );

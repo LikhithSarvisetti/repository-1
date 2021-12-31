@@ -468,6 +468,27 @@ Syntax :
 + Undirectional Data Flow
 + Single Page Apllication
 
++ Props
+	- to pass data from one component to another component we will use props
+	- Props are immutable
+
+	+ UnionBank (Functional1)
+	
+	   - AndhraBank (Functional1)
+	   -  Corporation (Class) 
++ States 
+
+- in react to maintain information we will use States
+- we can maintain states in class component only (Before react16.8 version)
+...
+
+constructor() {
+	super();
+	this.state={
+
+	}
+}
+
 + Project Environment Setup
 	- Have to download [NodeJS]
 	- Download Visual Studio Code
@@ -478,6 +499,79 @@ Syntax :
 	- ` create-react-app`
 		- `npm install create-react app`
 		- ` create-react-app projectname`
+	- ` npx create-react-app appname`
+
+
+	+ IndexPage
+		- nav.js
+		- body.js
+		- footer.js
+
+		+ Home.js
+			- nav
+			- body
+			- footer
+		+ Login.js
+		+ Register.js
+		+ About
+		+ Contact
+		
++ increment,decrement and reset
+import React, { Component } from 'react'
+
+export default class StateinClassComponent extends Component {
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             name:"Likhith",
+             count:0
+        }
+    }
+    
+    render() {
+
+        setTimeout(()=>{
+
+        
+            this.setState({
+                name : "Likhith.S"
+            })
+        },5000)
+        return (
+            <div>
+                <h1>Hello count is {this.state.count}</h1>
+                <h1>Hello this is {this.state.name}</h1>
+                <button onClick={()=>{
+                    this.setState({
+                        count: this.state.count+1
+                    })
+
+                }}>Increment Count</button>
+
+                   
+
+                 <button onClick={()=>{
+                    this.setState({
+                        count: this.state.count-1
+                    })
+                }}>Decrement Count</button>
+                  
+                    <button onClick={()=>{
+                    this.setState({
+                        count: 0
+                    })
+                }}>Reset Count</button>
+            </div>
+        )
+    }
+}
+
+### Hooks
+
++ from react16.8  Hooks are introduced
+
+- Parent - Child1 --> Child2 --> child3
 	
 
 

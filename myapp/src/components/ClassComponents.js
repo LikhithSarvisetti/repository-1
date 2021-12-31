@@ -1,12 +1,14 @@
 import React ,{Component} from 'react';
 import App from "../App";
-
+import '../States.css'
 
 class ClassComponent extends Component{
 
     render(){
         return(
-            <h1>Class Component</h1>
+            <div className="demo">
+            <h1 >Class Component</h1>
+            </div>
         )
     }
 }
