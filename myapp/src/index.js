@@ -11,6 +11,7 @@ import StateInFunctionalComponent from './components/StateInFunctionalComponent'
 import ListRendering from './components/ListRendering';
 import FormRendering from './components/FormRendering'
 import Home from './components/Home';
+import FormRenderingFunctions from './components/FormRenderingFunctions';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,7 +22,8 @@ ReactDOM.render(
   {/* <StateInFunctionalComponent /> */}
   {/* <ListRendering/> */}
   {/* <FormRendering /> */}
-  <Home />
+  {/* <Home /> */}
+  <FormRenderingFunctions />
   </React.StrictMode>,
   document.getElementById('root')
 );
