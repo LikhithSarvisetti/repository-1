@@ -8,15 +8,20 @@ import App from './App';
 import UnionBank from './components/UnionBank';
 import StateinClassComponent from './components/StateinClassComponent';
 import StateInFunctionalComponent from './components/StateInFunctionalComponent';
+import ListRendering from './components/ListRendering';
+import FormRendering from './components/FormRendering'
+import Home from './components/Home';
 
 ReactDOM.render(
   <React.StrictMode>
-   {/* <App />
-  <Functional /> 
-  <UnionBank /> */}
-  <StateinClassComponent />
+    {/* <App /> */}
+  {/* <Functional /> 
+  <UnionBank />  */}
+  {/* <StateinClassComponent /> */}
   {/* <StateInFunctionalComponent /> */}
-  
+  {/* <ListRendering/> */}
+  {/* <FormRendering /> */}
+  <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -488,6 +488,17 @@ constructor() {
 
 	}
 }
+- to update the state information in class component we use `setState()` method
+- to update the information in class component we have to follow component
+  life cycle methods
+  - `componentWillReceiveProps()`
+  - `componentWillMount()`
+  - `componentDidMount()`
+  - `componentWillUpdate()`
+  - `componentWillUnmount()`
+  - `shouldComponentUpdate()`
+  - `componentDidUpdate()`
+
 
 + Project Environment Setup
 	- Have to download [NodeJS]
@@ -572,7 +583,36 @@ export default class StateinClassComponent extends Component {
 + from react16.8  Hooks are introduced
 
 - Parent - Child1 --> Child2 --> child3
+
+- `useState()`
+- `useEffect()`
+- `useMemo()`
+- `useRef()`
+- `useContext()`
 	
+
+### List Rendering
+
+### Event Handling and Form Handling
+
+  - `onChange`
+  - `onSubmit`
+  - `preventDefault()`
+
+### Routing in React
+
++ to navigate(Route) from one component to another
+	- install react-router-dom package by using `npminstall react-router-dom`
+
+	- `BrowserRouter`
+	- `Routes`
+	- `Route`
+	- `Link`
+	- `path`
+	- `element`
+
++ Redux 
+
 
 
 
